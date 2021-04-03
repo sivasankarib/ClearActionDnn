@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_ProfileSetup", "DNNWeb\DesktopModules\ClearAction_ProfileSetup\ClearAction_ProfileSetup.csproj", "{7D61A32C-0F21-453F-A981-BD8E5A3A5304}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F25D221B-CD80-4D68-AD1A-704DBC0596AE} = {F25D221B-CD80-4D68-AD1A-704DBC0596AE}
+		{4E2BCA3B-927C-4AF2-9999-B1C074FD0539} = {4E2BCA3B-927C-4AF2-9999-B1C074FD0539}
+		{D4CDDDFE-F9D3-4382-9149-57BE185B6EEF} = {D4CDDDFE-F9D3-4382-9149-57BE185B6EEF}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DotNetNuke.Modules.Blog", "DNNWeb\DesktopModules\Blog\DotNetNuke.Modules.Blog.vbproj", "{4E2BCA3B-927C-4AF2-9999-B1C074FD0539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveForums", "DNNWeb\DesktopModules\ActiveForums\ActiveForums.csproj", "{2D42BCCC-D1B2-4831-B80C-41199DE25798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_Dashboard", "DNNWeb\DesktopModules\ClearAction_Dashboard\ClearAction_Dashboard.csproj", "{1F1EF0C0-C255-49C9-B5ED-79AB08F9090A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_SolveSpaces", "DNNWeb\DesktopModules\ClearAction_SolveSpaces\ClearAction_SolveSpaces.csproj", "{F25D221B-CD80-4D68-AD1A-704DBC0596AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_ComponentManager", "DNNWeb\DesktopModules\ClearAction_ComponentManager\ClearAction_ComponentManager.csproj", "{D4CDDDFE-F9D3-4382-9149-57BE185B6EEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F25D221B-CD80-4D68-AD1A-704DBC0596AE} = {F25D221B-CD80-4D68-AD1A-704DBC0596AE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_UserAnalytics", "DNNWeb\DesktopModules\ClearAction_UserAnalytics\ClearAction_UserAnalytics.csproj", "{96865AB7-9499-487A-AADC-4E7731A15230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryFeedback", "DNNWeb\DesktopModules\DnnEagles\jQueryFeedback\jQueryFeedback.csproj", "{048E280B-018F-43EF-A2C5-E787D73A4C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_AutoSchdularTags", "DNNWeb\DesktopModules\ClearAction_AutoSchdularTags\ClearAction_AutoSchdularTags.csproj", "{D4C78B6B-E504-4FDA-80C9-B609FD7283C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_Connections", "DNNWeb\DesktopModules\ClearAction_Connections\ClearAction_Connections.csproj", "{42CB7975-2E8A-4CD1-9050-8135BAF35BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_ReportIssue", "DNNWeb\DesktopModules\ClearAction_ReportIssue\ClearAction_ReportIssue.csproj", "{5B681963-4DE5-41A2-9A4B-E2BB2AC35BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_DigitalEvents", "DNNWeb\DesktopModules\ClearAction_WebCast\ClearAction_DigitalEvents.csproj", "{D1B3C0EA-34FA-4C0C-A4AE-D4E33D04AB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInsightsProvider", "DNNWeb\DesktopModules\AppInsights\AppInsightsProvider.csproj", "{4371E45D-0BB7-4AE5-8F5E-55ABCE998434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_SummaryActions", "DNNWeb\DesktopModules\ClearAction_SummaryActions\ClearAction_SummaryActions.csproj", "{67ED2B4F-2E39-42C2-A8CE-DE316716EC1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F25D221B-CD80-4D68-AD1A-704DBC0596AE} = {F25D221B-CD80-4D68-AD1A-704DBC0596AE}
+		{2D42BCCC-D1B2-4831-B80C-41199DE25798} = {2D42BCCC-D1B2-4831-B80C-41199DE25798}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearAction_Login", "DNNWeb\DesktopModules\ClearAction_Login\ClearAction_Login.csproj", "{8E78EAC5-B733-4D2F-9DFB-7917EC7E116B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DNNWeb", "DNNWeb", "{41AF8FDE-7B14-4B70-82BC-ECC109EC3A1C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50485"
+		Debug.AspNetCompiler.PhysicalPath = "DNNWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50485\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50485"
+		Release.AspNetCompiler.PhysicalPath = "DNNWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50485\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50485"
+		SlnRelativePath = "DNNWeb\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D61A32C-0F21-453F-A981-BD8E5A3A5304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D61A32C-0F21-453F-A981-BD8E5A3A5304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D61A32C-0F21-453F-A981-BD8E5A3A5304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2BCA3B-927C-4AF2-9999-B1C074FD0539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2BCA3B-927C-4AF2-9999-B1C074FD0539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2BCA3B-927C-4AF2-9999-B1C074FD0539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D42BCCC-D1B2-4831-B80C-41199DE25798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D42BCCC-D1B2-4831-B80C-41199DE25798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D42BCCC-D1B2-4831-B80C-41199DE25798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1EF0C0-C255-49C9-B5ED-79AB08F9090A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1EF0C0-C255-49C9-B5ED-79AB08F9090A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1EF0C0-C255-49C9-B5ED-79AB08F9090A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25D221B-CD80-4D68-AD1A-704DBC0596AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25D221B-CD80-4D68-AD1A-704DBC0596AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25D221B-CD80-4D68-AD1A-704DBC0596AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CDDDFE-F9D3-4382-9149-57BE185B6EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CDDDFE-F9D3-4382-9149-57BE185B6EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CDDDFE-F9D3-4382-9149-57BE185B6EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96865AB7-9499-487A-AADC-4E7731A15230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96865AB7-9499-487A-AADC-4E7731A15230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96865AB7-9499-487A-AADC-4E7731A15230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048E280B-018F-43EF-A2C5-E787D73A4C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048E280B-018F-43EF-A2C5-E787D73A4C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048E280B-018F-43EF-A2C5-E787D73A4C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C78B6B-E504-4FDA-80C9-B609FD7283C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C78B6B-E504-4FDA-80C9-B609FD7283C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C78B6B-E504-4FDA-80C9-B609FD7283C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CB7975-2E8A-4CD1-9050-8135BAF35BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CB7975-2E8A-4CD1-9050-8135BAF35BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CB7975-2E8A-4CD1-9050-8135BAF35BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B681963-4DE5-41A2-9A4B-E2BB2AC35BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B681963-4DE5-41A2-9A4B-E2BB2AC35BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B681963-4DE5-41A2-9A4B-E2BB2AC35BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B3C0EA-34FA-4C0C-A4AE-D4E33D04AB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B3C0EA-34FA-4C0C-A4AE-D4E33D04AB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B3C0EA-34FA-4C0C-A4AE-D4E33D04AB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4371E45D-0BB7-4AE5-8F5E-55ABCE998434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4371E45D-0BB7-4AE5-8F5E-55ABCE998434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4371E45D-0BB7-4AE5-8F5E-55ABCE998434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67ED2B4F-2E39-42C2-A8CE-DE316716EC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67ED2B4F-2E39-42C2-A8CE-DE316716EC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67ED2B4F-2E39-42C2-A8CE-DE316716EC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E78EAC5-B733-4D2F-9DFB-7917EC7E116B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E78EAC5-B733-4D2F-9DFB-7917EC7E116B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E78EAC5-B733-4D2F-9DFB-7917EC7E116B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E78EAC5-B733-4D2F-9DFB-7917EC7E116B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AF8FDE-7B14-4B70-82BC-ECC109EC3A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AF8FDE-7B14-4B70-82BC-ECC109EC3A1C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AF8FDE-7B14-4B70-82BC-ECC109EC3A1C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0EAFAAB-A4C4-47EC-9614-8BC293752D9E}
+	EndGlobalSection
+EndGlobal
