@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'ClearActionDev'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_14484de7462d4ee99cbe5f99896fe227 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cfe580525fa84c55bb6808d8fc4de9a3 }}
         package: .
